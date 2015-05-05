@@ -191,6 +191,27 @@
   padding: 10px 50px;
   text-align: center;
 }
+.rs-caption-4{
+  color: #fff;
+  position: relative;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 40px;
+  padding: 10px 50px;
+  text-align: center;
+}
+.rs-caption-4:after {
+  left: 50%;
+  
+  height: 1px;
+  
+  bottom: -10px;
+  
+  margin-left: -50px;
+  
+}
+
+
 
 .rs-caption-2:after {
   left: 50%;
@@ -212,7 +233,8 @@
 @media (max-width: 768px) {
   .rs-caption-1,
   .rs-caption-2,
-  .rs-caption-3 {
+  .rs-caption-3,
+  .rs-caption-4 {
     font-weight: normal;
   }
 }
