@@ -9,6 +9,19 @@ body, a, span{
 	font-family: 'Jeju Gothic', "맑은 고딕"; 	
 	font-size: 1em;
 }
-section#intro div.tp-caption{
-	font-size:3em;
+@media (max-width: 450px) {
+	section#intro div.tp-caption{
+		font-size:3em;
+		line-height: 1.5em;
+	}
+	.rs-caption-5:after {
+	  left: 50%;
+	  height: 1px;
+	  bottom: -10px;
+	  margin-left: -50px;
+	}
+	#slide2title, #slide3title, #slide3body{ margin-top: -3em; }
+
+	#slide2footer{ margin-top: 3em;}
+	.md-margin-bottom-50{ margin-bottom: 10px;}
 }
