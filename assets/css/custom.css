@@ -25,3 +25,13 @@ body, a, span{
 	#slide2footer{ margin-top: 3em;}
 	.md-margin-bottom-50{ margin-bottom: 10px;}
 }
+
+ul.panelul{
+	width: 100%;
+}
+
+ul.panelul li{
+	list-style: outside none none;
+	text-align: center;
+
+}
